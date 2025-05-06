@@ -1,16 +1,18 @@
 "use client";
 
-import React, { useEffect, useState, createContext, useContext } from "react";
+import React, { useEffect, useState, createContext, useContext, SetStateAction, Dispatch } from "react";
 
 type Theme = "light" | "dark";
 
 type ThemeContextProviderProps = {
   children: React.ReactNode;
+
 };
 
 type ThemeContextType = {
-  theme: Theme;
-  toggleTheme: () => void;
+  theme: Theme
+  toggleTheme: () => void
+  setTheme: Dispatch<SetStateAction<Theme>>
 };
 
 const ThemeContext = createContext<ThemeContextType | null>(null);
@@ -51,6 +53,7 @@ export default function ThemeContextProvider({
     <ThemeContext.Provider
       value={{
         theme,
+        setTheme,
         toggleTheme,
       }}
     >
