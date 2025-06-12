@@ -6,6 +6,7 @@ import ipadresstrackerImg from "@/public/ip-adress-tracker.png";
 import restcountriesImg from "@/public/rest-countries.png";
 import fequizImg from "@/public/fe-quiz.png";
 import markdownImg from "@/public/markdown.png";
+import haircodeImg from "@/public/haircode.png";
 import jobsdraftImg from "@/public/jobs-draft.png";
 
 export const links = [
@@ -56,32 +57,20 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Markdown Editor",
+    title: "Hair Code Suadiye Website",
     description:
-      "Markdown Editor is a modern single-page application where users can create, edit, and preview their own markdown documents. Built with React, this editor instantly converts your content into HTML and displays it in the preview area.",
-    tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: markdownImg,
+      "A responsive website built with Next.js App Router, TailwindCSS, Framer Motion, and ShadCN UI. Features include smooth animations, Instagram integration, a custom gradient footer, and embedded Google Maps.",
+    tags: ["Next.js", "Tailwind", "Framer Motion", "ShadCN UI"],
+    imageUrl: haircodeImg,
+    link: "https://www.haircodesuadiye.net"
   },
   {
-    title: "FE Quiz WebApp",
+    title: "Zimmetleme",
     description:
-      "This project is a responsive quiz application built using HTML, CSS, and JavaScript. It features a user-friendly interface and adapts seamlessly to different screen sizes, ensuring smooth performance on both desktop and mobile devices.",
-    tags: ["Javascript", "CSS"],
-    imageUrl: fequizImg,
-  },
-  {
-    title: "Jobs Draft",
-    description:
-      "A user‑friendly web application where developers can dynamically view and filter job listings.",
-    tags: ["React", "Tailwind"],
-    imageUrl: jobsdraftImg,
-  },
-  {
-    title: "Rest Countries",
-    description:
-      "A modern and responsive React application where you can search, filter, and view detailed information about countries around the world.",
-    tags: ["React", "Tailwind"],
-    imageUrl: restcountriesImg,
+      "Developed for Acunmedya Akademi’s user portal, this module offers a clean yet powerful interface that simplifies the process of assigning devices to individuals.  By digitizing what was once a manual workflow, the module enhances both transparency and operational efficiency.",
+    tags: ["Next.js", "Tailwind", "Shadcn"],
+    imageUrl: zimmetlemeImg,
+    link: "https://zimmetleme-webapp-ucfy.vercel.app/"
   },
   {
     title: "Ip Address Tracker",
@@ -89,13 +78,39 @@ export const projectsData = [
       "IP Address Tracker is a simple and interactive web application that allows users to track and view detailed information about any IP address. The app fetches geolocation data such as country, city, timezone, and ISP, and displays it alongside a dynamic map view.",
     tags: ["React", "Next.js", "Tailwind"],
     imageUrl: ipadresstrackerImg,
+    link: "https://ip-address-tracker-blond-delta.vercel.app/"
   },
   {
-    title: "Zimmetleme",
+    title: "Markdown Editor",
     description:
-      "Developed for Acunmedya Akademi’s user portal, this module offers a clean yet powerful interface that simplifies the process of assigning devices to individuals.  By digitizing what was once a manual workflow, the module enhances both transparency and operational efficiency.",
+      "Markdown Editor is a modern single-page application where users can create, edit, and preview their own markdown documents. Built with React, this editor instantly converts your content into HTML and displays it in the preview area.",
     tags: ["React", "Next.js", "Tailwind"],
-    imageUrl: zimmetlemeImg,
+    imageUrl: markdownImg,
+    link: "https://markdown-editor-react-eta.vercel.app/"
+  },
+  {
+    title: "FE Quiz WebApp",
+    description:
+      "This project is a responsive quiz application built using HTML, CSS, and JavaScript. It features a user-friendly interface and adapts seamlessly to different screen sizes, ensuring smooth performance on both desktop and mobile devices.",
+    tags: ["Javascript", "CSS"],
+    imageUrl: fequizImg,
+    link: "https://fe-quiz-app-swart.vercel.app/"
+  },
+  {
+    title: "Jobs Draft",
+    description:
+      "A user‑friendly web application where developers can dynamically view and filter job listings.",
+    tags: ["React", "Tailwind"],
+    imageUrl: jobsdraftImg,
+    link: "https://jobs-draft.vercel.app/"
+  },
+  {
+    title: "Rest Countries",
+    description:
+      "A modern and responsive React application where you can search, filter, and view detailed information about countries around the world.",
+    tags: ["React", "Tailwind"],
+    imageUrl: restcountriesImg,
+    link: "https://rest-countries-lilac-ten.vercel.app/"
   }
 ] as const;
 
