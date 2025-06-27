@@ -65,7 +65,7 @@ export const projectsData = [
     link: "https://www.haircodesuadiye.net"
   },
   {
-    title: "Zimmetleme",
+    title: "Zimmetleme Web App",
     description:
       "Developed for Acunmedya Akademi’s user portal, this module offers a clean yet powerful interface that simplifies the process of assigning devices to individuals.  By digitizing what was once a manual workflow, the module enhances both transparency and operational efficiency.",
     tags: ["Next.js", "Tailwind", "Shadcn"],
