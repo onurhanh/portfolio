@@ -3,11 +3,11 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import zimmetlemeImg from "@/public/zimmetleme.png";
 import ipadresstrackerImg from "@/public/ip-adress-tracker.png";
-import restcountriesImg from "@/public/rest-countries.png";
 import fequizImg from "@/public/fe-quiz.png";
 import markdownImg from "@/public/markdown.png";
 import haircodeImg from "@/public/haircode.png";
 import jobsdraftImg from "@/public/jobs-draft.png";
+import entertainmentImg from "@/public/entertainment.png"
 
 export const links = [
   {
@@ -64,6 +64,14 @@ export const projectsData = [
     imageUrl: haircodeImg,
     link: "https://www.haircodesuadiye.net"
   },
+    {
+    title: "Entertainment Web App",
+    description:
+      "A modern web application built with Next.js and TailwindCSS that displays a list of movies and TV shows. Users can bookmark content, which is persistently stored using localStorage and displayed on a dedicated bookmarks page.",
+    tags: ["Next.js", "Tailwind"],
+    imageUrl: entertainmentImg,
+    link: "https://entertainment-app-beige.vercel.app/"
+  },
   {
     title: "Zimmetleme Web App",
     description:
@@ -103,14 +111,6 @@ export const projectsData = [
     tags: ["React", "Tailwind"],
     imageUrl: jobsdraftImg,
     link: "https://jobs-draft.vercel.app/"
-  },
-  {
-    title: "Rest Countries",
-    description:
-      "A modern and responsive React application where you can search, filter, and view detailed information about countries around the world.",
-    tags: ["React", "Tailwind"],
-    imageUrl: restcountriesImg,
-    link: "https://rest-countries-lilac-ten.vercel.app/"
   }
 ] as const;
 
