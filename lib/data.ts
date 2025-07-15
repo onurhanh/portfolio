@@ -59,8 +59,8 @@ export const projectsData = [
   {
     title: "Hair Code Suadiye Website",
     description:
-      "A responsive website built with Next.js App Router, TailwindCSS, Framer Motion, and ShadCN UI. Features include smooth animations, Instagram integration, a custom gradient footer, and embedded Google Maps.",
-    tags: ["Next.js", "Tailwind", "Framer Motion", "ShadCN UI"],
+      "A responsive website built with Next.js App Router, TailwindCSS, Motion, and ShadCN UI. Features include smooth animations, Instagram integration, a custom gradient footer, and embedded Google Maps.",
+    tags: ["Next.js", "Tailwind", "Motion", "ShadCN UI"],
     imageUrl: haircodeImg,
     link: "https://www.haircodesuadiye.net"
   },
